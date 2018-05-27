@@ -1,0 +1,77 @@
+@media (max-width: 480px) {
+	body {
+		background: rgba(0,0,0);
+	}
+	.fullscreen-bg {
+		display: none;
+
+	}
+
+	.container {
+		width: 320px;
+		-webkit-box-shadow: 0px 3px 70px rgba(255, 255, 255, .6);
+		box-shadow: 0px 3px 70px rgba(255, 255, 255, .6);
+	}
+
+	.header-name {
+		font-size: 1.5em;
+	}
+	.nav-menu {
+		width: 50%;
+		margin: 10% 45% 5% 5%;
+	}
+	.nav-menu-link {
+		font-size: 0.8em;
+		padding: 5px;
+		text-align: left;
+
+
+	}
+	.main {
+		-webkit-box-pack: justify;
+		-ms-flex-pack: justify;
+		justify-content: space-between;
+		margin-left: 10%;
+
+
+	}
+
+	.main__link {
+		-webkit-transform: scale(0.8, 0.8);
+		-ms-transform: scale(0.8, 0.8);
+		transform: scale(0.8, 0.8);
+	}
+	.main__link:hover {
+		-webkit-transform: scale(1, 1);
+		-ms-transform: scale(1, 1);
+		transform: scale(1, 1);
+
+	}
+	.characteristics,
+	.interestingfacts,
+	.reviews {
+		margin-top: 5px;
+	}
+	.interestingfacts h4 {
+		text-align: left;
+	}
+	.interestingfacts p {
+		font-size: 0.9em;
+	}
+	.interestingfacts__img {
+		width: 50vmin;
+	}
+
+	.reviews_div {
+		border: none;
+		padding: 2em;
+		font-size: 0.9em;
+	}
+	.to-main {
+		margin: 10% 2% 5% 60%;
+		text-transform: uppercase;
+		font-size: 0.8em;
+		width: 30%;
+	}
+
+}
