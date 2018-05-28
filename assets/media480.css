@@ -47,11 +47,16 @@
 		transform: scale(1, 1);
 
 	}
+	.history, .characteristics, .interestingfacts,
+	.reviews {	margin-left: 5px;
+		margin-right: 5px;
+	}
 	.characteristics,
 	.interestingfacts,
 	.reviews {
 		margin-top: 5px;
 	}
+
 	.interestingfacts h4 {
 		text-align: left;
 	}
@@ -60,11 +65,12 @@
 	}
 	.interestingfacts__img {
 		width: 50vmin;
+		float: none;
 	}
 
 	.reviews_div {
 		border: none;
-		padding: 2em;
+		margin: 0;
 		font-size: 0.9em;
 	}
 	.to-main {
