@@ -17,15 +17,12 @@
 		font-size: 1.5em;
 	}
 	.nav-menu {
-		width: 50%;
-		margin: 10% 45% 5% 5%;
+		width: 100%;
 	}
 	.nav-menu-link {
 		font-size: 0.8em;
-		padding: 5px;
-		text-align: left;
-
-
+		padding-top: 10px;
+		margin-left: 2%;
 	}
 	.main {
 		-webkit-box-pack: justify;
@@ -78,6 +75,27 @@
 		text-transform: uppercase;
 		font-size: 0.8em;
 		width: 30%;
+	}
+	.nav-menu a{
+		display: none;
+	}
+	.nav-menu .icon{
+	display: block;
+	float: right;
+	text-decoration: none;
+	color: rgba(0,0,0,0.2);
+	font-size: 1.5em;
+}
+	.nav-menu.responsive a{
+			float: none;
+			display: block;
+			text-align: left;
+	}
+	.nav-menu.responsive a.icon{
+			text-align: right;
+	}
+	.header .logoName h1{
+		bottom: 20px;
 	}
 
 }
